@@ -9,8 +9,13 @@
 
 /* Page styling */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: var(--dark-blue);
+  font-family: var(--manrope);
 }
 
 .advice-page {
@@ -26,13 +31,12 @@ body {
 
 .advice-content {
   background-color: var(--dark-grayish-blue);
-  font-family: var(--manrope);
   max-width: 540px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 45px;
-  border-radius: 20px;
+  padding: 38px;
+  border-radius: 15px;
 }
 
 .advice-title {
@@ -40,13 +44,24 @@ body {
   color: var(--neon-green);
   font-size: 14px;
   letter-spacing: 5px;
+  margin-top: 8px;
+  margin-bottom: 20px;
 }
 
 .advice-quote {
   font-size: 28px;
   line-height: 1.5em;
   padding-bottom: 30px;
+  margin-top: 0;
   color: var(--light-cyan);
+}
+
+.advice-divider-desktop {
+  display: block;
+}
+
+.advice-divider-mobile {
+  display: none;
 }
 
 /* Button styling */
@@ -54,9 +69,9 @@ body {
 .advice-button {
   background-color: var(--neon-green);
   border-radius: 40px;
-  margin-top: 40px;
-  margin-bottom: -80px;
-  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: -70px;
+  padding: 20px 20px 15px;
 }
 
 .advice-button:hover {
@@ -69,7 +84,7 @@ body {
 
 .attribution {
   color: hsl(360, 100%, 100%);
-  font-size: 11px;
+  font-size: 10px;
   margin-top: 80px;
 }
 .attribution a {
@@ -80,10 +95,18 @@ body {
 
 @media screen and (max-width: 576px) {
   .advice-content {
-    max-width: 90%;
+    max-width: 95%;
   }
 
   .advice-quote {
     font-size: 20px;
+  }
+
+  .advice-divider-desktop {
+    display: none;
+  }
+
+  .advice-divider-mobile {
+    display: block;
   }
 }
