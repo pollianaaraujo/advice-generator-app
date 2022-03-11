@@ -7,6 +7,8 @@
   --dark-blue: hsl(218, 23%, 16%);
 }
 
+/* Page styling */
+
 body {
   background-color: var(--dark-blue);
 }
@@ -19,6 +21,8 @@ body {
   min-height: 100vh;
   text-align: center;
 }
+
+/* Card styling */
 
 .advice-content {
   background-color: var(--dark-grayish-blue);
@@ -45,6 +49,8 @@ body {
   color: var(--light-cyan);
 }
 
+/* Button styling */
+
 .advice-button {
   background-color: var(--neon-green);
   border-radius: 40px;
@@ -69,6 +75,8 @@ body {
 .attribution a {
   color: hsl(360, 100%, 100%);
 }
+
+/* Media Queries */
 
 @media screen and (max-width: 576px) {
   .advice-content {
