@@ -7,12 +7,66 @@
   --dark-blue: hsl(218, 23%, 16%);
 }
 
+body {
+  background-color: var(--dark-blue);
+}
+
+.advice-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.advice-content {
+  background-color: var(--dark-grayish-blue);
+  font-family: var(--manrope);
+  text-align: center;
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 45px;
+  border-radius: 20px;
+}
+
+.advice-title {
+  text-transform: uppercase;
+  color: var(--neon-green);
+  font-size: 14px;
+  letter-spacing: 5px;
+}
+
+.advice-quote {
+  font-size: 28px;
+  line-height: 1.5em;
+  padding-bottom: 30px;
+  color: var(--light-cyan);
+}
+
+.advice-refresh {
+  background-color: var(--neon-green);
+  border-radius: 40px;
+  margin-top: 40px;
+  margin-bottom: -80px;
+  padding: 20px;
+}
+
+.advice-refresh:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px var(--neon-green);
+  cursor: pointer;
+}
+
 /* Footer styling */
 
 .attribution {
+  color: hsl(360, 100%, 100%);
   font-size: 11px;
   text-align: center;
+  margin-top: 60px;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(360, 100%, 100%);
 }
