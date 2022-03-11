@@ -17,12 +17,12 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  text-align: center;
 }
 
 .advice-content {
   background-color: var(--dark-grayish-blue);
   font-family: var(--manrope);
-  text-align: center;
   max-width: 540px;
   display: flex;
   flex-direction: column;
@@ -45,7 +45,7 @@ body {
   color: var(--light-cyan);
 }
 
-.advice-refresh {
+.advice-button {
   background-color: var(--neon-green);
   border-radius: 40px;
   margin-top: 40px;
@@ -53,7 +53,7 @@ body {
   padding: 20px;
 }
 
-.advice-refresh:hover {
+.advice-button:hover {
   transform: scale(1.1);
   box-shadow: 0 0 15px var(--neon-green);
   cursor: pointer;
@@ -64,9 +64,18 @@ body {
 .attribution {
   color: hsl(360, 100%, 100%);
   font-size: 11px;
-  text-align: center;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 .attribution a {
   color: hsl(360, 100%, 100%);
+}
+
+@media screen and (max-width: 576px) {
+  .advice-content {
+    max-width: 90%;
+  }
+
+  .advice-quote {
+    font-size: 20px;
+  }
 }
