@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution on Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-app-using-html-css-and-js-7_0PL5a2j)
 - Live Site URL: [Advice App](https://hungry-mahavira-88c2c1.netlify.app/)
 
 ## My process
