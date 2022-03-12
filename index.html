@@ -39,10 +39,12 @@
   <body>
     <div class="advice-page">
       <!-- Advice Card -->
-      <div class="advice-content">
-        <p class="advice-title">Advice #<span id="advice-number"></span></p>
+      <main class="advice-content" role="main">
+        <p class="advice-title">Advice #<span id="advice-number">0</span></p>
 
-        <h1 class="advice-quote" id="advice-quote"></h1>
+        <blockquote class="advice-quote" id="advice-quote">
+          Searching an advice...
+        </blockquote>
 
         <img
           class="advice-divider-desktop"
@@ -63,11 +65,11 @@
             alt="Generate new advice"
           />
         </div>
-      </div>
+      </main>
 
       <!-- Footer -->
 
-      <div class="attribution">
+      <footer class="attribution" role="contentinfo">
         Challenge by
         <a
           href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db"
@@ -77,7 +79,7 @@
         <a href="https://pollianaaraujo.com/" title="About Polliana Araújo"
           >Polliana Araújo</a
         >.
-      </div>
+      </footer>
     </div>
 
     <!-- Javascript -->
